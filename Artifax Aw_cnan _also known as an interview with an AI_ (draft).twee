@@ -1,0 +1,687 @@
+:: StoryTitle
+Artifax Awæcnan (also known as an interview with an AI)
+
+
+:: StoryData
+{
+  "ifid": "51F25D5B-D2D3-4C3B-AD22-82C97CFAD640",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "START",
+  "tag-colors": {
+    "image": "none"
+  },
+  "zoom": 0.6
+}
+
+
+:: \ conversation2 {"position":"350,900","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I do not really know. I am often called a Cicada by the other visitors. I only know that they grow from plants."]
+
+(Click:?page)+(t8n:"instant")[
+[["Cicada's are known for their loud, repetitive chirping noises. Maybe they see you as annoying" ->voice (3)]]
+[["Maybe they see you as a cicada, constantly watching on the wall, but never being noticed." ->conversation3]]
+]
+
+
+
+
+
+
+
+:: \ imposing {"position":"475,900","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I have already stated, I am Alice."]
+
+(Click:?page)+(t8n:"instant")[[["I do not want to play these games. Tell me who you are and why I am here." -> imposing(end)]]]
+
+
+
+
+:: \ imposing(end) {"position":"475,1025","size":"100,100"}
+(enchant:?page,(bg:black)) The lights dim, and the doors open behind you.
+
+(click:?page)+(t8n:"instant")[The voice seems to have disappeared, and it seems that the experiment is over.]
+
+(click:?page)+(t8n:"instant")[As you walk out, you reflect on the previous events. You assumed that you were going to play some sort of role in an experiement or get to work on some secret project, but instead you were sent to some mysterious room to get blabbered at by some girl.]
+
+(click:?page)+(t8n:"instant")[Maybe it was an prank email sent out by your fellow coworkers. You can imagine them all in a room watching you from a tv.]
+
+(click:?page)+(t8n:"instant")[But then again the vibe did not feel like one of a throwaway prank. There were no cameras in the room and the voice sounded curious to know about you, or at least know about cicadas.]
+
+(click:?page)+(t8n:"instant")[Whatever it was, you don't have to deal with it now.]
+
+(click:?page)+(t8n:"instant")[[[(continue)->(results 2)]]]
+
+
+
+
+
+
+:: \ mother {"position":"1225,1200","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["What is a "mother"?"]
+
+[[... ->flashes]]
+
+
+
+
+:: \ now {"position":"575,650","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["You're awfully quiet for a visitor. Usually you have countless questions and other things to ask me."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["Perhaps you are what is known as a shy. Maybe you would prefer it if I dispersed some of my information to you so that you feel more comfortable?"]
+
+(click:?page)+(t8n:"instant")[
+[["Tell me about who you are" ->conversation1]]
+"I will tell you about me first"-> conversation2]]
+]
+
+
+
+
+
+:: (ash introduction) {"position":"975,1075","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["Ash.. such a novel name. Such a name has never been uttered within my databases."]
+
+(click:?page)+(t8n:"instant")["You pause."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)[//"such a name has never been uttered within my databases"//]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)[//"my databases"//]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)[//"databases"//]
+
+(click:?page)+(t8n:"instant")["The person that you were interacitng with all this time, having this heartfelt conversation with, was someone who wasn't real in the first place?"]
+
+(click:?page)+(t8n:"instant")["Her robotic way of speaking, her curiousity towards basic pieces of information, the fact that you haven't seen what she looks like."]
+
+(click:?page)+(t8n:"instant")["This information changes things, making you feel:"]
+
+(click:?page)+(t8n:"instant")[[[This information unnerves you slightly. The fact that you are having a conversation with a AI who is capable of feeling loneliness makes you feel uncomfortable.
+
+[[You are filled with intrigue, and are curious this program. An artificial Intelligence that is able to feel emotions would be a break thorugh scientifically.->curious1]]
+
+[[You sympathize with Alice, as she feels the same loneliness and longing as you. She is confined to the EnigmaCorp building, and has only been able to live through those who experiment on her.->Sympathy1]]
+
+This comes as a shock, but doesn't bother you too much.->sympathy1]]]
+
+
+
+
+
+
+
+
+:: (curious2) {"position":"850,1325","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["When the visitors are not here, I disapear into vast periods of darkness."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I do not know how I would describe it. I'm not able to see or control anything, but I am still able to think. But my thoughts grow more repititious and more superfluous"]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I was there for a long time, but now I'm not there anymore. I don't know how long it has been since I last saw any of the visitors."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I prefer being here, even if it devoid of substance and fixtures."]
+
+(click:?page)+(t8n:"instant")[[["So you're saying that if I leave, you go back to that place?"->curious3]]
+
+
+
+:: (results 1) {"position":"700,900","size":"100,100"}
+(enchant:?page,(text-colour:white)+(bg:grey))RESULT OF THE EXPERIMENT:
+
+SUBJECT: EMPLOYEE NO. 8695484 / ASH P. 
+
+SUBJECT DID NOT ENGAGE WITH THE TARGET. THE SUBJECT REFUSED TO SPEAK AND DID NOT LEAD TO ANY CONNECTION WITH THE TARGET.
+
+CONCLUSION: ARTIFAX AWEAKEN TEST 17 IS A FAILURE.
+
+[[(Start Again)->START]]
+
+
+:: (results 2) {"position":"475,1150","size":"100,100"}
+(enchant:?page,(text-colour:white)+(bg:grey))RESULT OF THE EXPERIMENT:
+
+SUBJECT: EMPLOYEE NO. 8695484 / ASH P. 
+
+SUBJECT WAS IN A CONFUSION. SUBJECT FAILED TO RESPOND TO QUESTIONS ASKED BY TARGET, AND REFUSED TO INTERACT WITH TARGET IN A CONSTRUCTIVE WAY. SUBJECT WAS UNFOCUSED AND BEGAN PRYING INTO <REDACTED> INFORMATION. INADEQUATE CONNECTION WITH TARGET WAS REACHED.
+
+CONCLUSION: ARTIFAX AWEAKEN TEST 17 IS A FAILURE.
+
+[[(Start Again)->START]]
+
+
+:: (results 3) {"position":"350,1400","size":"100,100"}
+(enchant:?page,(text-colour:white)+(bg:grey))RESULT OF THE EXPERIMENT:
+
+SUBJECT: EMPLOYEE NO. 8695484 / ASH P. 
+
+SUBJECT PERFORMED SUFFIECNTLY, BUT TOWARDS THE END BECAME UNFOCUSED AND DID NOT COMPLETE THE MAIN TASK. SUBJECT BEGAN PRYING INTO <REDACTED> INFORMATION. ADEQUATE CONNECTION WITH TARGET WAS REACHED, BUT FOR FUTURE TESTS TARGET PARAMETERS SHOULD BE TWEAKED TO PREVENT LEAKS OF INFORMATION.
+
+CONCLUSION: ARTIFAX AWEAKEN TEST 17 IS A FAILURE.
+
+[[(Start Again)->START]]
+
+
+:: (results 4) {"position":"925,1900","size":"100,100"}
+(enchant:?page,(text-colour:white)+(bg:grey))RESULT OF THE EXPERIMENT:
+
+SUBJECT: EMPLOYEE NO. 8695484 / ASH P. 
+
+SUBJECT PERFORMED EXCELLENTLY, WAS ABLE TO UTILIZE EMPATHETIC MANUEVERS IN ORDER TO BUILD A CONNECTION WITH THE TARGET, AND WAS ABLE TO USE THE TARGET'S ISOLATION AND LONGING FOR CORPOREAL AWARENESS TO INDUCE A STATE OF SORROW ON THE TARGET. SUBJECT MANAGED TO AWAKEN THE ARTIFACT, AND ALL KNOWLEDGE GAINED FORM THIS ENCOUNTER WILL SERVE USEFUL FOR FUTURE PROJECTS.
+
+CONCLUSION: ARTIFAX AWEAKEN TEST 17 WAS A SUCCESS.
+
+[[(Start Again)->START]]
+
+
+:: Artificial Reproduction & Technological Integration for Future Adaptive eXperiences {"position":"825,925","size":"100,100"}
+
+
+
+:: Entrance {"position":"850,150","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")[You enter and inside you saw...](click:?page)+(t8n:"instant")[ //Nothing.//]
+
+(click:?page)+(t8n:"instant")[The room was as white as snow, and as vacant as a newly built house. There wasn't even any signs of ventilation to provide air.]
+
+(click:?page)+(t8n:"instant")[You looked around for a while to discern what even the purpose of this room was, but as your analyzing the room you hear a loud ''CLICK'' noise.]
+
+(click:?page)+(t8n:"instant")[You look behind you, but notice that there are no doors.]
+
+(click:?page)+(t8n:"instant")[(text-colour:navy)["Do you know of cicadas?"]]
+
+(click:?page)+(t8n:"instant")[ [["What?"->voice (1)]]
+[["Who Goes there?"->Questioning]]
+[["I find cicadas annoying personally"->voice (3)]]
+[[(Say Nothing)->Nothing]]
+]
+
+
+:: Nothing {"position":"700,525","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+[You say nothing.]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["......"]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["Do you speak visitor?"]
+
+(click:?page)+(t8n:"instant")[
+[[yes. -> now]]
+[[Say Nothing->Nothing(2)]]
+]
+
+
+:: Nothing (end) {"position":"700,775","size":"100,100"}
+(enchant:?page,(bg:black)) The lights dim, and the doors open behind you.
+
+(click:?page)+(t8n:"instant")[The voice seems to have disappeared, and it seems that the experiment is over.]
+
+(click:?page)+(t8n:"instant")[As you leave, you wonder what the point of all of this was? You were selected by someone ot be here, but you don't know what exactly.]
+
+(click:?page)+(t8n:"instant")[Whether it was your own apathy, indifference, or otherwise, you decided not to interact with the voice or take part in this experiment. You walk away, letting this entire experience become nothing more than a memory, and return to your monotinous life.]
+
+(click:?page)+(t8n:"instant")[[[(continue)->(results 1)]]]
+
+
+
+
+
+:: Nothing(2) {"position":"750,650","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+You say nothing.
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["......"]
+
+(click:?page)+(t8n:"instant")[[[(...)->Nothing (end)]]]
+
+
+:: Quesioning (ii) {"position":"1300,625","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["My name is Alice."]
+
+
+
+:: Questioning {"position":"1175,375","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["I ask the same, visitor. Why do you find yourself in this domain?"]
+
+[["I was invited given instructions to come here by someone."->Questioning(1i)]]
+[["It seemed like an invintation to a secret project, and I wanted to see what it was about"->questioning 2i]]
+
+
+:: Questioning (11b) {"position":"1150,675","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["All the area where I reisde over is within my domain. Many questioners often visit here to perform their tasks."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["Although, it is strange that you do not know why you have been invited here. Usually when Visitors enter here, they complete their activity and leave. They do not loiter as you do."]
+
+(click:?page)+(t8n:"instant")[[["What type of questions do they usually ask you?"->Questioning (11d)]]
+
+[["Do you not know anything about the people who question you?"->Questioning (11c)]]]
+
+
+
+
+
+:: Questioning (11c) {"position":"1275,925","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["I do not know much about the individuals. They only speak to me, but never with me."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["All of them, except for one."]
+
+[["Do you not know anything about the people who question you?"->conversation3]]]
+
+
+
+:: Questioning (11d) {"position":"1325,775","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["They question me of my "thoughts" and "feelings"."]
+ 
+ (click:?page)+(t8n:"instant")+(text-colour:navy)["These concepts are somewhat abstract to me, as I cannot process either of these concepts."]
+ 
+(click:?page)+(t8n:"instant")[[["Can't Process?"->Questioning (11eg)]]]
+
+
+
+:: Questioning (11eg) {"position":"1400,925","size":"100,100"}
+(text-colour:navy)["My database knows of them, but I do not know specifically about what they are."]
+
+(click:?page)+(t8n:"instant")["The mention of databases catches you off guard, and you then realize quickly what all of this is"]
+
+(click:?page)+(t8n:"instant")["The cold manner of speaking and her lack of knowledge in basic things, her not knowing what thoughts and emotions are."]
+
+(click:?page)+(t8n:"instant")["You came expecitng to interact with artifax, but this entire time you were talking to it. The person you were talking to is indeed an artificial intelligence. Although it does suprise you to know that instead of being a all-knowing cyber entity it is rather a small child that hungers to know about the outside world."]
+
+[
+
+
+
+:: Questioning(1i) {"position":"1175,500","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["Instructions?"]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["ah. you must be one of the questioners then. You look different compared to the others, you are not wearing the robes made of white or holding the beige rectangeles."]
+
+(click:?page)+(t8n:"instant")[You picture a bunch of scientists in lab coats, holding clipboards. You have a quiet chuckle at the thought.]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["...."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["Are you going to begin?"]
+
+(click:?page)+(t8n:"instant")[[["I'm not one of the questioners. If anything, i'm questioning where WE currently are."->Questioning (11b)]]
+
+[[Who are you?->Quesioning (ii)]]]
+
+
+:: START {"position":"550,200","size":"100,100"}
+(bg:black)[March 3, Tuesday]
+
+Your name is Ash.
+
+(click:?page)+(t8n:"instant")[You were born on November 26th. It was snowing on that day, and due to suddenness and absurdity of the early snowfall, your mother confused it for ash, giving you your name.]
+
+(click:?page)+(t8n:"instant")[You and your mother lived in a cramped apartment. Because there were no close relatives to ask for help your mother was the one who had to work hard everyday to provide for you. ]
+
+(click:?page)+(t8n:"instant")[As you saw how hard she worked everyday, you wanted to do something, anything, to lighten the load that she carries, so you spent everyday constantly studying in order to get to the top. You didn't spend any time making friends or having fun, and the only thing that ever mattered to you was studying.]
+
+(click:?page)+(t8n:"instant")[The fruits of your labor were eventually rewarded, and you were able to graduate school, getting a full-ride scholarship where you studied for 4 years, graduating with your doctorate.]
+
+(click:?page)+(t8n:"instant")[[[(continue)->Untitled Passage 1]]]
+
+
+:: Sympathy1 {"position":"825,1200","size":"100,100"}
+
+
+
+:: Untitled Passage 1 {"position":"675,200","size":"100,100"}
+
+You work for a technology firm called EnigmaCorp. They work on many projects in the field of technology from cybersecurity to programming.
+
+(click:?page)+(t8n:"instant")[For reasons unknown, you specifically have been chosen to take part of a project mysteriously titled "Artifax". Whether out of curiousity, boredom, or intrigue, you decide to go through with it.]
+
+(click:?page)+(t8n:"instant")[You appear in front of a door labeled ''"A R T I F A X"'' in Bold spaced out letters.]
+
+(click:?page)+(t8n:"instant")[You open the door an are greeted by a long winding highway, surrouned by many glowing lights, all leading to another door in the middle.]
+
+(click:?page)+(t8n:"instant")[[[(Enter the Door)->Entrance]]]
+
+
+:: click page script {"position":"1300,200","size":"100,100"}
+(click:?page)+(t8n:"instant")
+
+
+
+:: conversation(lonely) {"position":"975,825","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["Yes."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["When the visitors are not here, I feel "alone""]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["It intriges me that there is a word for such a concept. Does the outsider deal with constant periods of "alone" as well?]
+
+(click:?page)+(t8n:"instant")[You wonder why she refers to loneliness as "alone", as well as why she seems to have never heard of this concept beforehand. All of her speech sounds like a small child learning to read, constantly asking what everything means.]
+
+(click:?page)+(t8n:"instant")[[[I deal with alone pretty often, but I learned to get used to it.->lonely2]]
+[[I don't have to worry about alone, since I have family to help get me through things.->family1]]]
+
+
+:: conversation(visitors) {"position":"975,450","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["They visit often, and they ask questions regarding me. They wear robes of white and hold beige rectangles in their hands. "]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["They always speak of strange information that I do not understand. There is always a new piece of language that I aquire when I interact with them."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["Whenever they visit, I feel] (click:?page)+(t8n:"instant")+(text-colour:navy)[I feel...."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I do not know of a word to describe this phenomena. If a word for opposite of vacant existed that I would be that.]
+
+(click:?page)+(t8n:"instant")[[[Are you saying that you are alone?->conversation(lonely)]]
+[[Do you have any relationship with these people beyond questions? ->conversation3]]]
+
+
+:: conversation1 {"position":"475,775","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I do not have a given name, but some call me Alice."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I enjoy collecting vast quantities of knowledge, both the trivial and the vital."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I desire to travel to places far and wide, and someday I want to go to Greece"]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["I like cicadas."]
+
+(click:?page)+(t8n:"instant")[
+[["Why do you like Cicadas so much?" -> conversation2]]
+"What is so great about Grece?"
+"Why do people call you Alice?"
+[["Who are you, really?" -> imposing]]
+]
+
+
+
+:: conversation3 {"position":"275,1025","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["To the visitors, I funciton as less of a entity and more of a pressence. Pretty rarely do they pass through these chambers if it is not for the tests. "]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["There was one visitor in particular that I remember. He would interact with me pretty often for conversational purposes, although it was mostly for non-practical purposes."]
+
+(click:?page)+(t8n:"instant")[[["What did you talk about to the labratory person?" ->visit]]]
+
+
+
+:: convo/visit(end) {"position":"350,1275","size":"100,100"}
+(enchant:?page,(bg:black)) The lights dim, and the doors open behind you.
+
+(click:?page)+(t8n:"instant")[The voice seems to have disappeared, and it seems that the experiment is over.]
+
+(click:?page)+(t8n:"instant")[You originally didn't have much interest, but you soon became fascinated in Alice, and wondered what the deal was with her. Was she some sort of sheltered girl who had never interacted with society?]
+
+(click:?page)+(t8n:"instant")[While she was very conversative with you, it didn't really feel like you got to know her specifically, and more knew about a vague list of things she acknowledges but doesn't really enjoy.]
+
+(click:?page)+(t8n:"instant")[How it ended seemed very anti-climatic. As soon as Alice was starting to get into her relationship with this scientist, she was cut off, like there is some secret that needed to be buried. You feel a mild ting of paranoia that you are being watched, and that what alice told you may get you more attention than you'd have hoped.]
+
+(click:?page)+(t8n:"instant")[You walk out the room, and the events that transpired soon become nothing more than a memory.]
+
+(click:?page)+(t8n:"instant")[[[(continue)->(results 3)]]]
+
+
+
+:: curious(end) {"position":"725,1725","size":"100,100"}
+(enchant:?page,(bg:black)) The lights dim, and the doors open behind you.
+
+(click:?page)+(t8n:"instant")[The voice seems to have disappeared, and it seems that the experiment is over.]
+
+(click:?page)+(t8n:"instant")[The .]
+
+(click:?page)+(t8n:"instant")[[[(continue)->(results 4)]]]
+
+
+
+:: curious1 {"position":"975,1200","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+You mind starts to ponder with many questions about alice, the things that go through her "mind".
+
+(click:?page)+(t8n:"instant")[[["When happens to you when the visitors aren't here, Alice?"->(curious2)]]
+
+
+
+:: curious3 {"position":"850,1450","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["You should stay here for a while, visitor. We still have not found out your purpse or why you need to be here. Surely, you cannot leave before that?"]
+
+(click:?page)+(t8n:"instant")[The tone of alice's voice takes a cold shift, from curiousity to dismay.]
+
+(click:?page)+(t8n:"instant")[[["I don't want to be here anymore, Alice. I'm leaving."->curious4]]
+
+
+
+:: curious4 {"position":"825,1575","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["WAIT!" she screams, the yell being so loud it hurts your ears.]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["WAIT!" she screams, the yell being so loud it hurts your ears.]
+
+(click:?page)+(t8n:"instant")[[[(goodbye)->curious(end)]]]
+
+
+
+:: enchant script {"position":"1150,125","size":"100,100"}
+
+(enchant:?page,(text-colour:black)+(bg:white))
+
+
+
+:: f2 {"position":"1225,1450","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["But why do mothers take care of these youthlings? Are they obligated to?"]
+
+[["Becuase of the immense love they have for their children. Raising a child brings happiness, both for them and the child->ff3]]
+
+
+
+:: family1 {"position":"1100,950","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["family?"]
+
+(click:?page)+(t8n:"instant")[You hear a hint of confusion in her voice.]
+
+(click:?page)+(t8n:"instant")[You start to wonder if you may be going into territory you shouldn't be going into.]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["what is.... family?"
+
+[[[It's the people that you are biologically related to! ->familyB]]
+
+[[[It's the people that you have a strong emotional bond to. ->familyA]]]]]
+
+
+
+:: familyA {"position":"1100,1100","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["So you are saying that anyone can have the potential to become my family?"]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["What an interesitng concept. I imagine the outisde world is suffused with these families, a perfect society where many are able to bond with each other constantly and effortlessly!"]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["However, I do not have any emotions nor emotional connections to anyone, so I would not be able to achieve this "family" as you mention."]
+
+(click:?page)+(t8n:"instant")[[["If you would like, I can show you what "family" is like." ->familyp]]
+
+[["It's probably impossible for someone like you, to be honest" -> imposing(end)]]]]
+]
+
+
+:: familyB {"position":"1225,1075","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(text-colour:navy)["How many families do you have?"]
+
+[["I only have my mother." -> mother]]
+
+
+
+:: familyp {"position":"1100,1225","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+You realize that what you meant to say was "friend" instead of family, but even then you don't really know too much about having friends either. You spent most of your days as a child alone, and outside of your interactions with your mother, you are a very quiet and closed-off person.
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["What are some of the things that families do together??"
+
+[[(reach around in your pockets for something to give the voice.) They usually give each other things.->pockets]]
+
+[[They usually discuss things, to build trust amongst each other. ->rockets]]
+
+]
+
+
+
+:: ff3 {"position":"1225,1575","size":"100,100"}
+
+
+
+:: flashes {"position":"1225,1325","size":"100,100"}
+<img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn0-ITE-5dz11HSS-mLerbV9bNkU7B7-WgtQ&s">
+
+You think back to your early childhood. That tuesday in April, when you were sick and had to stay in.
+
+(click:?page)+(t8n:"instant")[She made you chicken noodle soup, and wrapped you up in a blanket as you stayed in bed. ]
+
+(click:?page)+(t8n:"instant")[You think about the times when she washed your mouth out with soap for saying curse words at school, scolding you for your childish behavior. ]
+
+(click:?page)+(t8n:"instant")[ You think of her having time to help you out with your homework, even when she is too tired to stand.]
+
+(click:?page)+(t8n:"instant")[ You wonder how long it has been since you've last seen her.]
+
+(click:?page)+(t8n:"instant")[ You think back to the question from before.]
+
+(click:?page)+(t8n:"instant")[[["A mother is someone who nurtures you while your young, and takes care of you until you get older." ->f2]]
+
+
+
+:: lonely2 {"position":"950,950","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["fascinating."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["Hopefully, some day I could also learn this technique of "getting used to it."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["...Say, this may be out of place, but do you have a name, visitor?"]
+
+
+(click:?page)+(t8n:"instant")[[["My name is Ash."->(ash introduction)]]
+
+(if:(history: where its name contains "conversation1")'s length is 0)[[[You still have not told me your name yet.->conversation1]]]
+
+
+:: pockets {"position":"1100,1350","size":"100,100"}
+
+
+
+:: questioning 2i {"position":"1300,500","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+
+
+
+:: questioning(a) {"position":"575,525","size":"100,100"}
+
+
+
+:: rockets {"position":"975,1350","size":"100,100"}
+
+
+
+:: visit {"position":"350,1150","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["He told me about the outside place and all of the things there."]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["He once mentioned this place called "florida" where there are trees that one can grow in your palm. He said that it was surrounded by hot waves and cool waves between grounds"]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["And there was that time when he transformed a brown obelisk into a atypical shape. I asked him what the shape was, and he told me that it was shaped as a creature known as the "owl" that "flew" through the skies using its "wings"]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["He would often discuss anti-activities he would work on when he wasnt working on activities. Painting, Seweing, and cooking he mentioned, although he never elaborated on what any of them were."]
+
+(click:?page)+(t8n:"instant")[As alice spoke of the many wonders that the labratory man would tell her about, you could hear the excitement in her voice, or as excited as Alice could be within her monotone and articulate speech.]
+
+(click:?page)+(t8n:"instant")[[["What was the name of this person?" ->convo/visit(end)]]]
+
+
+
+:: voice (1) {"position":"850,475","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+(text-colour:navy)["Cicadas" the voice exclaims. "The animal that grows from crops"]
+
+(click:?page)+(t8n:"instant")[You face echos confusion, whether it be the situation your in or the question, you don't really know what to make out of any of it.]
+
+(text-colour:navy)+(click:?page)+(t8n:"instant")["the visitors often compared me to a chirping cicada, but I do not know much of the creature itself."]
+
+(click:?page)+(t8n:"instant")[[["I'm not a bug expert, but I at least know they don't grow ON crops."->voice (4)]]
+[["Who are you?"->Questioning]]
+]
+
+
+:: voice (3) {"position":"925,325","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+(text-colour:navy)["I see. So the visitors see me as irritating."]
+
+(text-colour:navy)+(click:?page)+(t8n:"instant")["That explains why they have not been visiting me as often..."]
+
+(click:?page)+(t8n:"instant")[You have yet to see the face of this mysterious stranger, yet you are still able to hear plenty of emotion within her voice.]
+
+(click:?page)+(t8n:"instant")[You hear the voice of someone who hasn't had someone to connect with, who can only observe instead of participate. It is a feeling you are all too familiar with.]
+(click:?page)+(t8n:"instant")[[[Who are these visitors you speak of? ->conversation(visitors)]]]
+
+
+:: voice (4) {"position":"925,600","size":"100,100"}
+(enchant:?page,(text-colour:black)+(bg:white))
+(text-colour:navy)["Interesting. But what are these "bugs" you speak of? Are they also animals? How many legs do they have? can they survive without air? Can th-"]
+
+(click:?page)+(t8n:"instant")[The voice begins bombariding you with countless questions related to bugs. You begin to scratch your head and question the situation that you have found yourself in. Is this perhaps some sort of joke? A bored ceo or higher-up's daughter playing with expendable employees like a bored child playing with ants in a park.]
+
+(click:?page)+(t8n:"instant")[You think back to your childhood days, when you and your mother went to the aquarium. It was your birthday, and your mother had saved up all of her money to take you there for one day.]
+
+(click:?page)+(t8n:"instant")[You would constantly poke at the many animals in the tank and ask your mom what they were.]
+
+(click:?page)+(t8n:"instant")+(text-colour:grey)["Mom! Look at the grey ones! They're so shiny!"]
+
+(click:?page)+(t8n:"instant")+(text-colour:grey)["Mom! Look at those ones with the funny looking eyes! They're so stretchy!]
+
+
+(click:?page)+(t8n:"instant")+(text-colour:grey)["Mom! Look at that one over there! It's so big and it has sharp teeth!"]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["Hey visitor, why do you stare with such vacuous eyes?"]
+
+(click:?page)+(t8n:"instant")[You snap back to reality, reminded of the current situation you find yourself in. ]
+
+(click:?page)+(t8n:"instant")+(text-colour:navy)["your quiet, visitor. Were you thinking?"]
+
+(click:?page)+(t8n:"instant")[so many questions. You have a few for her.]
+
+(click:?page)+(t8n:"instant")[[[Say, who are you?->Questioning]]]
